@@ -34,25 +34,44 @@
         <br>
             
             <div>
-                <input type="radio" id="WXP">
-                <label for="WXP"> Windwos XP</label>
-                <br>
-                <input type="radio" id="WV">
-                <label for="WV"> Windwos Vista</label>
-                <br>
-                <input type="radio" id="MOSX">
-                <label for="MOSX"> Mac OS X</label>
-                <br>
-                <input type="radio" id="Linux">
-                <label for="Linux"> Linux</label>
-                <br>
-                <input type="radio" id="Autre">
-                <label for="Autre"> Autre</label>
-                
+              <input type="radio" id="winXP" name="choice"> Windows XP <br>
+              <input type="radio" id="winVista" name="choice"> Windows Vista <br>
+              <input type="radio" id="mac" name="choice"> MacOS X <br>
+              <input type="radio" id="linux" name="choice"> Linux <br>
+              <input type="radio" id="other" name="choice"> Autre <br>          
             </div>
             
+        <br> 
             
+            <lable for="name">Vous possédez : </lable>
         
+        <br>
+            
+            <div>
+              <input type="checkbox" id="ordi" name="ordi"> Un ordinateur de bureau <br>
+              <input type="checkbox" id="portable" name="portable"> Un portable <br>
+              <input type="checkbox" id="netbook" name="netbook"> Un netbook <br>
+              <input type="checkbox" id="tablette" name="tablette"> Une tablette (Pad) <br>         
+            </div>
+            
+        <br> 
+            
+            <lable for="name">Votre profession : </lable>
+        
+        <br>
+            
+            <select name="profession" id="profession-selected" size="5">
+                <option value="chomeur">Chômeur</option>
+                <option value="etudiant">Etudiant</option>
+                <option value="fonctionnaire">Fonctionnaire</option>
+                <option value="prive">Privé</option>
+                <option value="retraite">Retraité</option>
+            </select> 
+            
+            <br>
+            
+            <button type="button">S'inscrire !</button>
+            
         </form>
         
     </body>
